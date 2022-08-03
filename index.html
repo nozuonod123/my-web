@@ -51,6 +51,66 @@ a_idx = (a_idx + 1) % a.length;var x = e.pageX,y = e.pageY;$i.css({"z-index": 10
 				color:#4db0a0;
 				cursor:url('dp.cur'),auto;
             }
+	      #neon-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background: #031628;
+      width: 50%;
+      height: 500px;
+    }
+
+    .btn {
+      border: 1px solid;
+      background-color: transparent;
+      text-transform: uppercase;
+      font-size: 14px;
+      padding: 10px 20px;
+      font-weight: 300;
+    }
+
+    .one {
+      color: #4cc9f0;
+    }
+
+    .two {
+      color: #f038ff;
+    }
+
+    .three {
+      color: #b9e769;
+    }
+
+    .btn:hover {
+      color: white;
+      border: 0;
+    }
+
+    .one:hover {
+      background-color: #4cc9f0;
+      -webkit-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+      -moz-box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+      box-shadow: 10px 10px 99px 6px rgba(76, 201, 240, 1);
+      transition: all ease-in 0.5s;
+	cursor:url('dp.cur'),auto;
+    }
+
+    .two:hover {
+      background-color: #f038ff;
+      -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+      transition: all ease-in 0.5s;
+    }
+
+    .three:hover {
+      background-color: #b9e769;
+      -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+      -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+      box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+      transition: all ease-in 0.5s;
+    }
+
   </style>
  <style>
 	a{
@@ -121,11 +181,11 @@ a_idx = (a_idx + 1) % a.length;var x = e.pageX,y = e.pageY;$i.css({"z-index": 10
 
 	<body bgcolor="#BEE7E9" body background="OIP-C.jpg" style=" background-repeat:no-repeat ;z-index:5;background-size:100% 100%;background-position: center;background-attachment: fixed;"">	
 		<video width="320" height="240" controls>
-				<source src="./d47y2-5vzjp.mp4"  type="video/mp4">。
+				<source src="./d47y2-5vzjp.mp4"  type="video/mp4">
 			  </video>
 		<font size=5 face="测试字体" style="color:#19CAAD">
 		<center>
-		↖(听听歌)<br>
+		↖(听听歌)  <div id="neon-btn" onclick="window.open('https://hexo-4gjf2n2o52cbb2b0-1313081808.ap-shanghai.app.tcloudbase.com/')"><button class="btn one">传送门</button></div><br>
 		<h3> 请阅读这里的文档,很重要,对于你有帮助</h3><br>
 		<a href="javascript:;" onclick="window.location.href='https://www.bilibili.com/video/BV1GJ411x7h7'" style="color:#BEEDC7"><button>色色</button></a><br>
 		love you:3<br>
